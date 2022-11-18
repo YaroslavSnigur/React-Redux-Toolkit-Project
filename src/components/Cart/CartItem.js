@@ -14,7 +14,7 @@ const CartItem = (props) => {
 
   const addItemHandler = () => {
     dispatch(
-      cartActions.addItemFromCart({
+      cartActions.addItemToCart({
         id,
         title,
         price,
